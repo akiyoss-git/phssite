@@ -197,17 +197,16 @@ export default class About extends Component {
 
                 
 
-                <a name="diplomas"></a>
                 <h2 id="diplomas" className="text-center display-3"> НАГРАДЫ </h2>
                 <p className="mt-3">
                     <img src={diploma1} alt="Фотография 1" width="310" height="500" className="scale m-3" style={{border: "thick double #32a1ce"}} />
                     <img src={diploma2} alt="Фотография 2" width="310" height="500" className="scale m-3" style={{border: "thick double #32a1ce"}} />
                     <img src={diploma4} alt="Фотография 3" width="310" height="500" className="scale m-3" style={{border: "thick double #32a1ce"}} />
+                    <img src={diploma7} alt="Фотография 7" width="310" height="500" className="scale m-3" style={{border: "thick double #32a1ce"}} />
+                    <img src={diploma8} alt="Фотография 8" width="310" height="500" className="scale m-3" style={{border: "thick double #32a1ce"}} />
                     <img src={diploma5} alt="Фотография 4" width="310" height="500" className="scale m-3" style={{border: "thick double #32a1ce"}} />
-                    <img src={diploma3} alt="Фотография 5" width="653" height="500" className="scale m-3" style={{border: "thick double #32a1ce"}} />   
-                    <img src={diploma6} alt="Фотография 6" width="653" height="500" className="scale m-3" style={{border: "thick double #32a1ce"}} />  
-                    <img src={diploma7} alt="Фотография 7" width="653" height="500" className="scale m-3" style={{border: "thick double #32a1ce"}} />  
-                    <img src={diploma8} alt="Фотография 8" width="653" height="500" className="scale m-3" style={{border: "thick double #32a1ce"}} />                
+                    <img src={diploma3} alt="Фотография 5" width="653" height="500" className="scale m-3" style={{border: "thick double #32a1ce"}} />
+                    <img src={diploma6} alt="Фотография 6" width="653" height="500" className="scale m-3" style={{border: "thick double #32a1ce"}} />
                 </p>
 
                 <a name="certificates"></a>

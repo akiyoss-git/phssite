@@ -122,6 +122,14 @@ export default class Materials extends Component {
                                                         Возрастная физиология. Рабочая тетрадь Часть 2.
                                                     </a> 
                                                 </li> 
+                                                <li>
+                                                    <a
+                                                        href="/files/pdf/methodological_support/ms_12.pdf"
+                                                        download="калы Регрессии Федеральный стандарт Самара 2022 Нижегородская область.pdf"
+                                                        target="_blank">
+                                                        Шкалы Регрессии Федеральный стандарт Самара 2022 Нижегородская область стр 69.
+                                                    </a>
+                                                </li>
                                             </ul>
                                         </li>
                                         <li>
