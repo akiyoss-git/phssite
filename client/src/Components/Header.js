@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { HashLink } from 'react-router-hash-link';
 import { 
     Container, 
     Nav, 
@@ -34,6 +35,7 @@ export default class Header extends Component {
                                 <Nav.Link href="/"> ГЛАВНАЯ </Nav.Link>
                                 <Nav.Link href="/about"> ОБО МНЕ </Nav.Link>
                                 <Nav.Link href="/materials"> МАТЕРИАЛЫ </Nav.Link>
+                                <HashLink smoth to="/materials/#upgradeKurses">Курсы повышения квалификации</HashLink>
                             </Nav>
 
                             {/* поиск */}

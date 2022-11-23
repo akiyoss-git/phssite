@@ -1022,141 +1022,143 @@ export default class Materials extends Component {
                                         </li>
                                     </ul>
                                 </Tab.Pane>
-                                <Tab.Pane eventKey="Возрастная физиология">
-                                    <h4> Файлы доступные для скачивания: </h4>
-                                    <ul type="circle">
-                                        <li>
-                                            <h6>Монографии:</h6>
-                                            <ul type="circle">
-                                                <li>
-                                                    <a 
-                                                        href="/files/pdf/advanced_training_courses/age_physiology/Актуальные проблемы образования.pdf" 
-                                                        download="Актуальные проблемы образования.pdf" 
-                                                        target="_blank"> 
-                                                        Актуальные проблемы образования
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <h6>Свидетельства регистраций баз данных:</h6>
-                                            <ul type="circle">
-                                                <li>
-                                                    <a 
-                                                        href="/files/pdf/verify_dataBases/vf_db_01.pdf" 
-                                                        download="Показатели физического развития учащихся школьного возраста Нижегородской области.pdf" 
-                                                        target="_blank"> 
-                                                        Показатели физического развития учащихся школьного возраста Нижегородской области
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a 
-                                                        href="/files/pdf/verify_dataBases/vf_db_02.pdf" 
-                                                        download="Данные физического развития учащихся школьного возраста мегаполиса Нижнего Новгорода.pdf" 
-                                                        target="_blank"> 
-                                                        Данные физического развития учащихся школьного возраста мегаполиса Нижнего Новгорода
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a 
-                                                        href="/files/pdf/verify_dataBases/vf_db_06.pdf" 
-                                                        download="Нормативы физического развития, физиологических показателей учащихся школьного возраста Нижегородской области.pdf" 
-                                                        target="_blank"> 
-                                                        Нормативы физического развития, физиологических показателей учащихся школьного возраста Нижегородской области
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a 
-                                                        href="/files/pdf/verify_dataBases/vf_db_04.pdf" 
-                                                        download="Свидетельство о регистрациия ФИПС РФ БД Антропометрия.pdf" 
-                                                        target="_blank"> 
-                                                        Свидетельство о регистрациия ФИПС РФ БД Антропометрия
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a 
-                                                        href="/files/pdf/verify_dataBases/vf_db_05.pdf" 
-                                                        download="Физическое развитие детей, подростков и молодежи Российской Федерации В 2000-2021 годах.pdf" 
-                                                        target="_blank"> 
-                                                        Физическое развитие детей, подростков и молодежи Российской Федерации В 2000-2021 годах
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a 
-                                                href="/files/pdf/advanced_training_courses/age_physiology/Адрес ссылки.docx" 
-                                                download="Адрес ссылки.docx" 
-                                                target="_blank"> 
-                                                Адрес ссылки
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a 
-                                                href="/files/pdf/advanced_training_courses/age_physiology/Аннотация курса ПК.docx" 
-                                                download="Аннотация курса ПК.docx" 
-                                                target="_blank"> 
-                                                Аннотация курса ПК
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a 
-                                                href="/files/pdf/advanced_training_courses/age_physiology/Диссертация Калюжный ЕА 2015 год.pdf" 
-                                                download="Диссертация Калюжный ЕА 2015 год.pdf" 
-                                                target="_blank"> 
-                                                Диссертация Калюжный ЕА 2015 год
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a 
-                                                href="/files/pdf/advanced_training_courses/age_physiology/Дневник самоконтроля Пластичных физиологических констант ДНК 2021 год.pdf" 
-                                                download="Дневник самоконтроля Пластичных физиологических констант ДНК 2021 год.pdf" 
-                                                target="_blank"> 
-                                                Дневник самоконтроля Пластичных физиологических констант ДНК 2021 год
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a 
-                                                href="/files/pdf/advanced_training_courses/age_physiology/Калюжный  Антропология Статья 2022_03_pp_005_016.pdf" 
-                                                download="Калюжный  Антропология Статья 2022_03_pp_005_016.pdf" 
-                                                target="_blank"> 
-                                                Калюжный Антропология Статья
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a 
-                                                href="/files/pdf/advanced_training_courses/age_physiology/Калюжный Е А  Автореферат 2015 год.pdf" 
-                                                download="Калюжный Е А  Автореферат 2015 год.pdf" 
-                                                target="_blank"> 
-                                                Калюжный Е А Автореферат 2015 год
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a 
-                                                href="/files/pdf/advanced_training_courses/age_physiology/Программа Повышения Квалификации  Возрастная физиология ДНК 2022г.doc" 
-                                                download="Программа Повышения Квалификации  Возрастная физиология ДНК 2022г.doc" 
-                                                target="_blank"> 
-                                                Программа Повышения Квалификации  Возрастная физиология ДНК 2022г
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a 
-                                                href="/files/pdf/advanced_training_courses/age_physiology/Региональный Стандарт ОЦЕНОЧНЫЕ ТАБЛИЦЫ 2022г.pdf" 
-                                                download="Региональный Стандарт ОЦЕНОЧНЫЕ ТАБЛИЦЫ 2022г.pdf" 
-                                                target="_blank"> 
-                                                Региональный Стандарт ОЦЕНОЧНЫЕ ТАБЛИЦЫ 2022г
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a 
-                                                href="/files/pdf/advanced_training_courses/age_physiology/Федеральный стандарт  Шкалы Регрессии изд Самара 2022  Нижегородская область стр 69.pdf" 
-                                                download="Федеральный стандарт  Шкалы Регрессии изд Самара 2022  Нижегородская область стр 69.pdf" 
-                                                target="_blank"> 
-                                                Федеральный стандарт  Шкалы Регрессии изд Самара 2022  Нижегородская область стр 69
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </Tab.Pane>
+                                <section id = "upgradeKurses">
+                                    <Tab.Pane eventKey="Возрастная физиология" >
+                                        <h4> Файлы доступные для скачивания: </h4>
+                                        <ul type="circle">
+                                            <li>
+                                                <h6>Монографии:</h6>
+                                                <ul type="circle">
+                                                    <li>
+                                                        <a 
+                                                            href="/files/pdf/advanced_training_courses/age_physiology/Актуальные проблемы образования.pdf" 
+                                                            download="Актуальные проблемы образования.pdf" 
+                                                            target="_blank"> 
+                                                            Актуальные проблемы образования
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <h6>Свидетельства регистраций баз данных:</h6>
+                                                <ul type="circle">
+                                                    <li>
+                                                        <a 
+                                                            href="/files/pdf/verify_dataBases/vf_db_01.pdf" 
+                                                            download="Показатели физического развития учащихся школьного возраста Нижегородской области.pdf" 
+                                                            target="_blank"> 
+                                                            Показатели физического развития учащихся школьного возраста Нижегородской области
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a 
+                                                            href="/files/pdf/verify_dataBases/vf_db_02.pdf" 
+                                                            download="Данные физического развития учащихся школьного возраста мегаполиса Нижнего Новгорода.pdf" 
+                                                            target="_blank"> 
+                                                            Данные физического развития учащихся школьного возраста мегаполиса Нижнего Новгорода
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a 
+                                                            href="/files/pdf/verify_dataBases/vf_db_06.pdf" 
+                                                            download="Нормативы физического развития, физиологических показателей учащихся школьного возраста Нижегородской области.pdf" 
+                                                            target="_blank"> 
+                                                            Нормативы физического развития, физиологических показателей учащихся школьного возраста Нижегородской области
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a 
+                                                            href="/files/pdf/verify_dataBases/vf_db_04.pdf" 
+                                                            download="Свидетельство о регистрациия ФИПС РФ БД Антропометрия.pdf" 
+                                                            target="_blank"> 
+                                                            Свидетельство о регистрациия ФИПС РФ БД Антропометрия
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a 
+                                                            href="/files/pdf/verify_dataBases/vf_db_05.pdf" 
+                                                            download="Физическое развитие детей, подростков и молодежи Российской Федерации В 2000-2021 годах.pdf" 
+                                                            target="_blank"> 
+                                                            Физическое развитие детей, подростков и молодежи Российской Федерации В 2000-2021 годах
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                    href="/files/pdf/advanced_training_courses/age_physiology/Адрес ссылки.docx" 
+                                                    download="Адрес ссылки.docx" 
+                                                    target="_blank"> 
+                                                    Адрес ссылки
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                    href="/files/pdf/advanced_training_courses/age_physiology/Аннотация курса ПК.docx" 
+                                                    download="Аннотация курса ПК.docx" 
+                                                    target="_blank"> 
+                                                    Аннотация курса ПК
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                    href="/files/pdf/advanced_training_courses/age_physiology/Диссертация Калюжный ЕА 2015 год.pdf" 
+                                                    download="Диссертация Калюжный ЕА 2015 год.pdf" 
+                                                    target="_blank"> 
+                                                    Диссертация Калюжный ЕА 2015 год
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                    href="/files/pdf/advanced_training_courses/age_physiology/Дневник самоконтроля Пластичных физиологических констант ДНК 2021 год.pdf" 
+                                                    download="Дневник самоконтроля Пластичных физиологических констант ДНК 2021 год.pdf" 
+                                                    target="_blank"> 
+                                                    Дневник самоконтроля Пластичных физиологических констант ДНК 2021 год
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                    href="/files/pdf/advanced_training_courses/age_physiology/Калюжный  Антропология Статья 2022_03_pp_005_016.pdf" 
+                                                    download="Калюжный  Антропология Статья 2022_03_pp_005_016.pdf" 
+                                                    target="_blank"> 
+                                                    Калюжный Антропология Статья
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                    href="/files/pdf/advanced_training_courses/age_physiology/Калюжный Е А  Автореферат 2015 год.pdf" 
+                                                    download="Калюжный Е А  Автореферат 2015 год.pdf" 
+                                                    target="_blank"> 
+                                                    Калюжный Е А Автореферат 2015 год
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                    href="/files/pdf/advanced_training_courses/age_physiology/Программа Повышения Квалификации  Возрастная физиология ДНК 2022г.doc" 
+                                                    download="Программа Повышения Квалификации  Возрастная физиология ДНК 2022г.doc" 
+                                                    target="_blank"> 
+                                                    Программа Повышения Квалификации  Возрастная физиология ДНК 2022г
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                    href="/files/pdf/advanced_training_courses/age_physiology/Региональный Стандарт ОЦЕНОЧНЫЕ ТАБЛИЦЫ 2022г.pdf" 
+                                                    download="Региональный Стандарт ОЦЕНОЧНЫЕ ТАБЛИЦЫ 2022г.pdf" 
+                                                    target="_blank"> 
+                                                    Региональный Стандарт ОЦЕНОЧНЫЕ ТАБЛИЦЫ 2022г
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a 
+                                                    href="/files/pdf/advanced_training_courses/age_physiology/Федеральный стандарт  Шкалы Регрессии изд Самара 2022  Нижегородская область стр 69.pdf" 
+                                                    download="Федеральный стандарт  Шкалы Регрессии изд Самара 2022  Нижегородская область стр 69.pdf" 
+                                                    target="_blank"> 
+                                                    Федеральный стандарт  Шкалы Регрессии изд Самара 2022  Нижегородская область стр 69
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </Tab.Pane>
+                                </section>
                             </Tab.Content>
                         </Col>
                     </Row>
