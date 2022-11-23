@@ -35,7 +35,7 @@ export default class Header extends Component {
                                 <Nav.Link href="/"> ГЛАВНАЯ </Nav.Link>
                                 <Nav.Link href="/about"> ОБО МНЕ </Nav.Link>
                                 <Nav.Link href="/materials/all"> МАТЕРИАЛЫ </Nav.Link>
-                                <Nav.Link href="/materials/upgradeKurses" >Курсы повышения квалификации</Nav.Link>
+                                <Nav.Link href="/materials/upgradeKurses" >КУРСЫ ПОВЫШЕНИЯ КВАЛИФИКАЦИИ</Nav.Link>
                             </Nav>
 
                             {/* поиск */}
