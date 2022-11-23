@@ -3,9 +3,10 @@ import { Col, Container, Nav, Tab, Row } from 'react-bootstrap'
 import NavDropdown from 'react-bootstrap/NavDropdown';
 export default class Materials extends Component {
     render() {
+        const defaultTab = this.props.match.params.tab === "upgradeKurses" ? "Возрастная физиология" : "Статьи"
         return (
             <Container>
-                <Tab.Container id="ledt-tabs-example" defaultActiveKey="Статьи">
+                <Tab.Container id="ledt-tabs-example" defaultActiveKey={defaultTab}>
                     <Row>
                         <Col sm={3}>
                             <Nav variant="pills" className="flex-column mt-5">

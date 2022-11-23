@@ -34,8 +34,8 @@ export default class Header extends Component {
                             <Nav className="mr-auto">
                                 <Nav.Link href="/"> ГЛАВНАЯ </Nav.Link>
                                 <Nav.Link href="/about"> ОБО МНЕ </Nav.Link>
-                                <Nav.Link href="/materials"> МАТЕРИАЛЫ </Nav.Link>
-                                <HashLink smoth to="/materials/#upgradeKurses">Курсы повышения квалификации</HashLink>
+                                <Nav.Link href="/materials/all"> МАТЕРИАЛЫ </Nav.Link>
+                                <Nav.Link href="/materials/upgradeKurses" >Курсы повышения квалификации</Nav.Link>
                             </Nav>
 
                             {/* поиск */}
@@ -56,7 +56,7 @@ export default class Header extends Component {
                     <Switch>
                         <Route exact path="/" component={Home} />
                         <Route exact path="/about" component={About} /> 
-                        <Route exact path="/materials" component={Materials} /> 
+                        <Route exact path="/materials/:tab" component={Materials} /> 
                     </Switch>
                 </Router> 
             </>
