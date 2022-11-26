@@ -1111,7 +1111,7 @@ export default class Materials extends Component {
                                             </li>
                                             <li>
                                                 <a 
-                                                    href="/files/pdf/advanced_training_courses/age_physiology/Дневник самоконтроля Пластичных физиологических констант ДНК 2021 год.pdf" 
+                                                    href="/files/pdf/advanced_training_courses/age_physiology/Дневник самоконтроля Поластичных физиологических констант  ДНК   2021 год.pdf" 
                                                     download="Дневник самоконтроля Пластичных физиологических констант ДНК 2021 год.pdf" 
                                                     target="_blank"> 
                                                     Дневник самоконтроля Пластичных физиологических констант ДНК 2021 год
