@@ -19,6 +19,7 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
-db.kids = require("./kid.model.js")(sequelize, Sequelize);
+db.user = require("./user.model.js")(sequelize, Sequelize);
+db.history = require("./history.model.js")(sequelize, Sequelize);
 
 module.exports = db;

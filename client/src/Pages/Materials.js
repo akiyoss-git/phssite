@@ -1,9 +1,17 @@
 import React, { Component } from 'react'
 import { Col, Container, Nav, Tab, Row } from 'react-bootstrap'
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Cookies from 'universal-cookie';
+import { Redirect } from 'react-router';
 export default class Materials extends Component {
     render() {
         const defaultTab = this.props.match.params.tab === "upgradeKurses" ? "Возрастная физиология" : "Статьи"
+        const cookies = new Cookies();
+        if(cookies.get('token')){
+            return (
+                <Redirect to='/' />
+            )
+        }
         return (
             <Container>
                 <Tab.Container id="ledt-tabs-example" defaultActiveKey={defaultTab}>

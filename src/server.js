@@ -3,7 +3,9 @@ const app = express();
 const db = require("./models");
 var path = require('path');
 var cors = require('cors')
-const initRoutes = require("./routes/kids.routes");
+const kidsRoutes = require("./routes/kids.routes");
+const historyRoutes = require("./routes/history.routes");
+const userRoutes = require("./routes/user.routes");
 
 global.__basedir = __dirname + "/..";
 app.use(cors())
@@ -11,7 +13,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 const buildPath = path.join(__dirname, '..', '/client/build');
 app.use(express.static(buildPath));
-initRoutes(app);
+kidsRoutes(app);
+historyRoutes(app);
+userRoutes(app);
 
 app.get('/*', function (req, res) {
   res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
