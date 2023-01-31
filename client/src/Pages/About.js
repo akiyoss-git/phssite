@@ -9,6 +9,7 @@ import diploma5 from '../assets/diploma/5.jpg'
 import diploma6 from '../assets/diploma/6.jpg'
 import diploma7 from '../assets/diploma/7.jpg'
 import diploma8 from '../assets/diploma/8.jpg'
+import diploma9 from '../assets/diploma/9.jpg'
 
 import certificate1 from '../assets/certificates/sert_01.jpg'
 import certificate2 from '../assets/certificates/sert_02.PNG'
@@ -204,6 +205,7 @@ export default class About extends Component {
                     <img src={diploma5} alt="Фотография 4" width="310" height="500" className="scale m-3" style={{border: "thick double #32a1ce"}} />
                     <img src={diploma3} alt="Фотография 5" width="653" height="500" className="scale m-3" style={{border: "thick double #32a1ce"}} />
                     <img src={diploma6} alt="Фотография 6" width="653" height="500" className="scale m-3" style={{border: "thick double #32a1ce"}} />
+                    <img src={diploma9} alt="Фотография 9" width="653" height="500" className="scale m-3" style={{border: "thick double #32a1ce"}} />
                 </p>
 
                 <a name="certificates"></a>
